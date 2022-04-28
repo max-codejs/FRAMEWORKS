@@ -1,0 +1,10 @@
+/* Aqui é a área/pagina principal dos sass, onde os outros arquivos scss terão de serem vinculados para que a página principal rode as importações*/
+
+/* Cuidado com as hieraquias de posições ou seja ao importar, quem vem primeiro?*/
+
+// Importando as cores
+@import "./colors/colors.scss";
+
+// Importando home 
+@import "./pages/home.scss";
+

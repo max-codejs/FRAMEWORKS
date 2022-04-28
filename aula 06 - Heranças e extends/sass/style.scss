@@ -1,0 +1,24 @@
+.btn {
+    width: 125px;
+    padding: 10px 0px;
+    border-radius: 20px;
+    display: block;
+    margin-top: 10px;
+
+    //HERANÇAS --> lembrar de usar ê comercial &
+    &.btn-amarelo {
+        background-color: yellow;
+        color: red;
+    }
+    &#btn-azul {
+        background-color: blue;
+        color: white;
+    }
+    //EXTENDS
+}
+//EXTENDS
+.btn-roxo { // Observe que ficou fora do escopo do .btn
+    @extend .btn;
+    background-color: purple;
+    color: white;
+}
