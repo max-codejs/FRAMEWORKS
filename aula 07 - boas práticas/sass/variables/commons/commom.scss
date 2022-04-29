@@ -1,0 +1,15 @@
+// commom = comum em portugues;
+
+#title-home{
+    font-size: 100px;
+    font-family: sans-serif;
+}
+.btn {
+    width: 95px;
+    padding: 10px 0px;
+    background-color: $btn-background;
+    color: $primary-colors;
+    display: block;
+    margin-top: 10px;
+    cursor: pointer;
+}
